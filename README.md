@@ -32,7 +32,7 @@ You can call the API by calling `http://127.0.0.1:8000/stores/1/products` with P
 
 ### Testing
 
-I made ProductTest.php in the `root/tests/Feature/ProductTest.php` and you can run the command below:
+I made a test in the `root/tests/Feature/ProductTest.php` and you can run the command below:
 
 ```
 php artisan test
