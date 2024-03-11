@@ -1,2 +1,37 @@
-# blackcart
-BlackCart E-Commerce API Challenge Question &amp; Laravel
+Laravel v10(PHP: 8.0, MySQL: 5.0)
+
+### Setup instructions
+
+1: Change the .env.example file to .env
+
+2: Create a database named `blackcart`
+
+3: Install Laravel composer
+
+```
+composer install
+```
+
+4: Run database migration command
+
+```
+php artisan migrate --seed
+```
+
+5: Run Laravel backend
+
+```
+php artisan serve
+```
+
+### API requests
+
+You can call the API by calling `http://127.0.0.1:8000/stores/1/products` with Postman.
+
+### Testing
+
+I made ProductTest.php in the `root/tests/Feature/ProductTest.php` and you can run the command below:
+
+```
+php artisan test
+```
