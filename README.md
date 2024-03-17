@@ -39,6 +39,5 @@ php artisan test
 ```
 ![image](https://github.com/yuriyleve/blackcart/assets/146879078/34361a9a-36c4-48b1-9589-c93ac9f83dd5)
 
-### yuriyleve@gmail.com
 
 
